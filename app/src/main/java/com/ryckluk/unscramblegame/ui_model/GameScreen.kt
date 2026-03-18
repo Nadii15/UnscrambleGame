@@ -1,6 +1,7 @@
 package com.ryckluk.unscramblegame.ui_model
 
-import android.provider.UserDictionary
+
+
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -201,12 +202,12 @@ fun FinalScoreDialog(
     score: Int,
     onPlayAgain:() -> Unit,
     modifier: Modifier = Modifier
-){
+) {
     AlertDialog(
-        onDismissRequest ={
+        onDismissRequest = {
 
         },
-        title = { Text (text = "Поздравляем")},
+        title = { Text(text = "Поздравляем") },
         text = {
             Column {
                 Text(text = "Вы набрали:")
@@ -224,10 +225,7 @@ fun FinalScoreDialog(
                 Text(text = "Играть снова")
             }
         }
-        )
-
-
-
+    )
 }
 
 
