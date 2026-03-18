@@ -1,4 +1,4 @@
-package com.ryckluk.unscramblegame.ui.theme.ui_model
+package com.ryckluk.unscramblegame.ui_model
 
 import androidx.lifecycle.ViewModel
 import com.ryckluk.unscramblegame.data.GameUiState
